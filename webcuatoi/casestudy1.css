@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+}
+
+.flex-container {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    justify-content: space-between;
+    background-color: rgba(14, 110, 52, 0.058);
+    margin-bottom: 20px;
+    z-index: 2;
+    
+}
+
+.flex-center {
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    padding: 15px;
+}
+
+.flex-center p {
+    color: #fff;
+    font-size: 15px;
+    text-shadow: 0 0 10px #f36a02, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+.btn-ĐK {
+    padding: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: #1a22275a;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0 0 10px #f36a02, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    border: none;
+    margin-top: 0px;
+    border-radius: 20px;
+    
+}
+
+.btn-ĐN {
+    padding: 10px;
+    width: 160px;
+    height: 50px;
+    background-color: #1a22275a;
+    color: #fff;
+    font-size: 20px;
+    text-shadow: 0 0 10px #f36a02, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+    border: none;
+    margin-right: 10px;
+    border-radius: 20px;
+}
+
+.guide__title {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    color: #fff;
+    font-size: 40px;
+    text-shadow: 0 0 10px #f36a02, 0 0 20px #69e0ff, 0 0 40px #69e0ff;
+}
+
+.city_icon {
+    width: 13vh;
+}
+
+
+.container-lg {
+width: 100%;
+background-color: rgba(14, 110, 52, 0.058);
+height: 320px;
+}
+.row {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    height: 50px;
+    justify-content: space-between;
+    justify-content: center;
+}
+
+
+.genshin-product-1 {
+    height: 320px;
+    background-image: url(anh2.png);
+    background-size: 100% 100% !important;
+    text-align: center;
+}
+div {
+    display: block;
+}
+.genshin-product-1 .img-banner {
+    width: 80%;
+    background-size: cover;
+    border-radius: 6px;
+    height: 120px;
+}
+.genshin-product-1 .product {
+    margin-bottom: 20px;
+    position: relative;
+    color: #634827;
+}
+*, ::after ::before {
+    box-sizing: border-box;
+}
+.btn-pretty {
+    border: none;
+    background: url(button.png);
+    background-size: 100% 100% !important;
+    text-align: center;
+    height: 52px;
+    width: 191px;
+    color: #e4defe;
+    font-weight: bold;
+    font-size: 19px;
+    margin: 2px 0 2px 0;
+}
+.note_title {
+    line-height: 34px;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 14px;
+}
+.more-detai {
+    font-size: 25px;
+}
